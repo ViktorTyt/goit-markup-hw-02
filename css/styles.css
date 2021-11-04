@@ -1,4 +1,75 @@
+:root {
+--main-text-color: #757575;
+--main-title-color: #212121;
+--text-accent: #2196F3;
+
+
+}
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif
+}
+.logo {
+    text-decoration: none;
+}
+.logo-section-first {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: var(--text-accent);
+}
+.logo-section-second {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: #000000 
+}
+.site-nav {
+    list-style-type: none;
+}
+.site-nav-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+    
+}
+.site-nav-item .site-nav-link:hover,
+.site-nav-item .site-nav-link:focus {
+    color: var(--text-accent);
+}
+.site-nav-link {
+    text-decoration: none;
+}
+.contacts-list {
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+}
+.contacts-list-link {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+}
+.contacts-list-mail .contacts-list-link:hover,
+.contacts-list-mail .contacts-list-link:hover {
+    color: var(--text-accent);
+}
+.contacts-list-tel .contacts-list-link:hover,
+.contacts-list-tel .contacts-list-link:hover {
+    color: var(--text-accent);
+}
+.contacts-list {
+    text-decoration: none;
 }
