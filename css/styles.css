@@ -67,7 +67,7 @@ body {
 /*---------------------------------------------------- main------------------------------------------ */
 /*--------------------section hero----------------------------- */
 .hero {
-    background-color:var(--background-color-datk);
+    background-color:var(--background-color-dark);
 }
 .hero-title {
     font-weight: 900;
