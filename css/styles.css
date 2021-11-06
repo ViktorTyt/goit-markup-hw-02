@@ -3,13 +3,13 @@
 --main-title-color: #212121;
 --second-title-text-color:#FFFFFF;
 --text-accent: #2196F3;
---background-color-datk: #2F303A;
+--background-color-dark: #2F303A;
 }
 body {
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-    color: ##757575 ;
-    }
+    color: #757575 ;
+}
 .logo {
     text-decoration: none;
     font-family: Raleway;
@@ -151,7 +151,7 @@ body {
 }
 /* -----------------------------footer---------------------- */
 .footer {
-    background-color:var(--background-color-datk) ;
+    background-color:var(--background-color-dark) ;
 }
 .adress-link-adress {
     font-size: 14px;
@@ -168,14 +168,13 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 /* ---------------------portfolio page---------------------------------------------- */
-.
 .portfolio-text-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color:var(--main-title-color)
+    color:var(--main-title-color);
     cursor: pointer;
 }
 .portfolio-text-btn.white {
